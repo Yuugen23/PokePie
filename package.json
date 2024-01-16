@@ -2,13 +2,19 @@
   "name": "pokepie",
   "version": "1.0.0",
   "description": "A pokemon api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": "Yuugen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
   }
 }
